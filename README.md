@@ -10,6 +10,12 @@ been performed merely by creating this package.
 
 ## Install
 
+After cloning or pulling this repository, fetch the pinned baseline checkouts from the project root:
+
+```powershell
+git submodule update --init --recursive
+```
+
 Use Python 3.11 or newer and Git. From this project directory in PowerShell:
 
 ```powershell

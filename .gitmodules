@@ -1,0 +1,9 @@
+[submodule "DeepJIT"]
+	path = baseline implementations/DeepJIT
+	url = https://github.com/soarsmu/DeepJIT.git
+[submodule "CC2Vec"]
+	path = baseline implementations/CC2Vec
+	url = https://github.com/CC2Vec/CC2Vec.git
+[submodule "JITLine-replication-package"]
+	path = baseline implementations/JITLine-replication-package
+	url = https://github.com/awsm-research/JITLine-replication-package.git
