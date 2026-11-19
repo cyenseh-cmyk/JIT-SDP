@@ -1,0 +1,37 @@
+{
+  "models": [
+    "deepjit",
+    "cc2vec",
+    "jitline_apachejit"
+  ],
+  "repositories": {
+    "apache/activemq": "data\\repositories\\apache__activemq",
+    "apache/camel": "data\\repositories\\apache__camel-retry1",
+    "apache/cassandra": "data\\repositories\\apache__cassandra",
+    "apache/flink": "data\\repositories\\apache__flink",
+    "apache/groovy": "data\\repositories\\apache__groovy",
+    "apache/hadoop": "data\\repositories\\apache__hadoop",
+    "apache/hadoop-hdfs": "data\\repositories\\apache__hadoop-hdfs",
+    "apache/hadoop-mapreduce": "data\\repositories\\apache__hadoop-mapreduce",
+    "apache/hbase": "data\\repositories\\apache__hbase-retry1",
+    "apache/hive": "data\\repositories\\apache__hive-retry1",
+    "apache/ignite": "data\\repositories\\apache__ignite-retry1",
+    "apache/kafka": "data\\repositories\\apache__kafka-retry1",
+    "apache/spark": "data\\repositories\\apache__spark-retry1",
+    "apache/zeppelin": "data\\repositories\\apache__zeppelin-retry1",
+    "apache/zookeeper": "data\\repositories\\apache__zookeeper-retry1"
+  },
+  "run_id": "experiment_v2",
+  "neural": {
+    "batch_size": 32
+  },
+  "cc2vec": {
+    "batch_size": 8
+  },
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "temporal_overlap": "error"
+}
