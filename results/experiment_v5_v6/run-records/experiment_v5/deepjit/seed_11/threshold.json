@@ -1,0 +1,20 @@
+{
+  "metrics": {
+    "ap": 0.7934721793009859,
+    "constant_prediction": false,
+    "f1": 0.7612273065081219,
+    "fn": 968,
+    "fp": 1281,
+    "mcc": 0.49881586383731963,
+    "n": 8965,
+    "no_predicted_positives": false,
+    "precision": 0.7367447595561035,
+    "recall": 0.7873929277399517,
+    "roc_auc": 0.8170989647665384,
+    "single_class": false,
+    "tn": 3131,
+    "tp": 3585
+  },
+  "partition": "validation",
+  "threshold": 0.59
+}

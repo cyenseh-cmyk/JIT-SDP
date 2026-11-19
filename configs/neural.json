@@ -1,0 +1,25 @@
+{
+  "models": [
+    "deepjit",
+    "cc2vec"
+  ],
+  "repositories": {
+    "apache/hadoop": "data/repositories/apache__hadoop",
+    "apache/hadoop-hdfs": "data/repositories/apache__hadoop-hdfs",
+    "apache/hadoop-mapreduce": "data/repositories/apache__hadoop-mapreduce"
+  },
+  "run_id": "experiment_v2_neural",
+  "neural": {
+    "batch_size": 32,
+    "device": "cuda"
+  },
+  "cc2vec": {
+    "batch_size": 8
+  },
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "temporal_overlap": "error"
+}

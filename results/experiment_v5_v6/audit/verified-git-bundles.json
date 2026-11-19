@@ -1,0 +1,30 @@
+[
+  {
+    "repo": ".",
+    "revision": "1fa904039117bcfbc8444048b499a4140f9a4292",
+    "path": "verified-bundles/JIT-SDP.bundle",
+    "bytes": 83140916,
+    "sha256": "4642d50f28640fd425f67bece83316485a42bfe8432d4333391a90c7080271b6"
+  },
+  {
+    "repo": "baseline implementations/CC2Vec",
+    "revision": "211d6704bd592518458a13a8c13dc4bfcb0a72b7",
+    "path": "verified-bundles/CC2Vec.bundle",
+    "bytes": 70294,
+    "sha256": "7f01e1995b69fe973a0cab97b68e881c3cf9503e4345fa1a189ac262eb3ce61f"
+  },
+  {
+    "repo": "baseline implementations/DeepJIT",
+    "revision": "bb3dd8a10dcfc44383c15734bb18e6a1ddc6ba45",
+    "path": "verified-bundles/DeepJIT.bundle",
+    "bytes": 7877,
+    "sha256": "bf7120f146926d5e934eebf267a58603c7f9add905d9ef571f938e78ebc00cfe"
+  },
+  {
+    "repo": "baseline implementations/JITLine-replication-package",
+    "revision": "1e06d33b44c19565301d31fce9984afbb8b3127c",
+    "path": "verified-bundles/JITLine-replication-package.bundle",
+    "bytes": 6925165,
+    "sha256": "fa1ba40e245d0597bd640e096c191aa299a1cd28ded097e87926e3408dd0813e"
+  }
+]

@@ -17,7 +17,8 @@ DEFAULT = {
                "hidden_units": 512, "dropout": 0.5, "learning_rate": 0.0001,
                "weight_decay": 0.00001, "batch_size": 32, "max_epochs": 20,
                "patience": 5, "min_delta": 0.0001, "device": "cpu", "threads": 4},
-    "cc2vec": {"embed_size": 64, "hidden_size": 32, "batch_size": 8,
+    "deepjit": {"cuda_backward": "torch", "early_stopping": True},
+    "cc2vec": {"embed_size": 64, "hidden_size": 32, "batch_size": 8, "batch_lines": False,
                "max_epochs": 20, "patience": 5},
     "jitline": {"trees": 300, "max_features": "sqrt", "n_jobs": 4,
                 "max_tokens": 50000, "min_df": 3, "candidate_evaluations": 30,
@@ -43,6 +44,10 @@ def load(path):
     cfg = merge(deepcopy(DEFAULT), read_json(path))
     if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]*", cfg["run_id"]):
         raise ValueError("run_id must be a simple directory name")
+    if cfg["deepjit"]["cuda_backward"] not in ("torch", "triton"):
+        raise ValueError("Unknown DeepJIT CUDA backward implementation")
+    if type(cfg["deepjit"]["early_stopping"]) is not bool:
+        raise ValueError("DeepJIT early_stopping must be boolean")
     seeds = cfg["seeds"]
     if not isinstance(seeds, list) or not seeds or any(type(s) is not int for s in seeds) or len(seeds) != len(set(seeds)):
         raise ValueError("seeds must be nonempty, unique integers")
@@ -54,6 +59,8 @@ def load(path):
         raise ValueError("validation_fraction must be between zero and one")
     if cfg["temporal_overlap"] not in ("error", "exclude_late_training"):
         raise ValueError("Unknown temporal_overlap policy")
+    if type(cfg["cc2vec"]["batch_lines"]) is not bool:
+        raise ValueError("CC2Vec batch_lines must be boolean")
     if cfg["cc2vec"]["embed_size"] != 2 * cfg["cc2vec"]["hidden_size"]:
         raise ValueError("Upstream CC2Vec requires embed_size = 2 * hidden_size")
     if not 0 < cfg["threshold_grid_step"] < 0.5:

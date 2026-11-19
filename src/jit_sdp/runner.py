@@ -25,6 +25,8 @@ def provenance(cfg):
     packages = {}
     for name in ("numpy", "scipy", "scikit-learn", "imbalanced-learn", "torch", "joblib"):
         packages[name] = importlib.metadata.version(name)
+    if cfg.get("deepjit", {}).get("cuda_backward") == "triton" and "deepjit" in cfg["models"] and cfg["neural"]["device"].startswith("cuda"):
+        packages["triton"] = importlib.metadata.version("triton")
     return {"upstream": revisions, "python": platform.python_version(), "platform": platform.platform(),
             "packages": packages, "package_source": {p.name: file_hash(p) for p in sorted(Path(__file__).parent.glob("*.py"))}}
 

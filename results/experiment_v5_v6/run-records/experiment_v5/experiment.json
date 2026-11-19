@@ -1,0 +1,192 @@
+{
+  "config": {
+    "analysis": {
+      "bootstrap_draws": 1000,
+      "permutation_draws": 9999,
+      "seed": 2026
+    },
+    "archive": "/workspace/JIT-SDP/apachejit_dataset_replication.zip",
+    "baseline_dir": "/workspace/JIT-SDP/baseline implementations",
+    "cc2vec": {
+      "batch_size": 8,
+      "embed_size": 64,
+      "hidden_size": 32,
+      "max_epochs": 20,
+      "patience": 5
+    },
+    "deepjit": {
+      "cuda_backward": "triton",
+      "early_stopping": false
+    },
+    "encoding": {
+      "cc_files": 2,
+      "cc_length": 64,
+      "cc_lines": 10,
+      "code_length": 512,
+      "code_lines": 10,
+      "max_code_vocab": 50000,
+      "max_msg_vocab": 20000,
+      "msg_length": 256
+    },
+    "jitline": {
+      "candidate_evaluations": 30,
+      "max_features": "sqrt",
+      "max_tokens": 50000,
+      "min_df": 3,
+      "n_jobs": 4,
+      "population": 10,
+      "smote_max_neighbors": 20,
+      "trees": 300
+    },
+    "models": [
+      "deepjit",
+      "cc2vec",
+      "jitline_apachejit"
+    ],
+    "neural": {
+      "batch_size": 64,
+      "device": "cuda",
+      "dropout": 0.5,
+      "embedding_dim": 64,
+      "filter_sizes": [
+        1,
+        2,
+        3
+      ],
+      "hidden_units": 512,
+      "learning_rate": 0.0001,
+      "max_epochs": 20,
+      "min_delta": 0.0001,
+      "num_filters": 64,
+      "patience": 5,
+      "threads": 4,
+      "weight_decay": 1e-05
+    },
+    "projects": [],
+    "repositories": {
+      "apache/hadoop": "/workspace/JIT-SDP/data/repositories/apache__hadoop",
+      "apache/hadoop-hdfs": "/workspace/JIT-SDP/data/repositories/apache__hadoop-hdfs",
+      "apache/hadoop-mapreduce": "/workspace/JIT-SDP/data/repositories/apache__hadoop-mapreduce"
+    },
+    "run_dir": "/workspace/JIT-SDP/runs",
+    "run_id": "experiment_v5",
+    "seeds": [
+      11,
+      23,
+      37
+    ],
+    "stress_tests": true,
+    "temporal_overlap": "error",
+    "threshold_grid_step": 0.01,
+    "validation_fraction": 0.2,
+    "work_dir": "/workspace/JIT-SDP/data"
+  },
+  "sources": {
+    "package_source": {
+      "__init__.py": "6b295db4bd7f589619d1c812958d37f2d10491b68d3b3094d713f58c05953dd6",
+      "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "analysis.py": "1c2ac3f2a35fb36f24ee2695f4a0a0d9b3c401e1cda38973a012341907b2ee2f",
+      "cli.py": "c7db0cd6793f09664d1d99c67a4c8ee70fa672eb9571969e197414d0c72516f0",
+      "config.py": "37cb075dd0fd64bb904882c33df651d89f76db6007c2616aa4390806e31bb535",
+      "data.py": "b05d6ae71fb5bc311e66f27efc2ce2affd782e95d19bb26a4b73df9d981f9de9",
+      "deepjit_cuda.py": "61e3507ee5aeccce8b6b6e8ca4b0b72d4549f8cbaf9077382d5f59027989af48",
+      "features.py": "47d168be5b9599123f2c81c671e652d4216246f882c63da343fc96a154289f0f",
+      "forest.py": "c3685ce4a3a84bcfd49cd47d1f35d6ff9316d66dfc5bfa213ba091515978cfff",
+      "gitdata.py": "83f17a59b5cb8dc955a4ea8a39e5b068b907338a53f43835e5079b9f7df62186",
+      "io.py": "65ed9d9de07ddfeec250ae0d38b53badfefcdf441e606e6c6ead6440a528bd2a",
+      "metrics.py": "65824ad48607cb789e7b264ac800c6e9087f03adb27cb7bbbc104b7b63c37534",
+      "neural.py": "255653c1564273ec7bfadcf28a4b85e665ec8d57a9c95cb6ad7cafe3e275e74a",
+      "runner.py": "22793891e1d49125bc7a358934903d0aea0acefa0d9f7aa656a73d43bd60c38a",
+      "stress.py": "e88fe77a5c5e0fa6729afdff2877d5030c4b331c6690c529984daacdd05daba7"
+    },
+    "packages": {
+      "imbalanced-learn": "0.14.2",
+      "joblib": "1.6.0",
+      "numpy": "2.5.5",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "torch": "2.15.0",
+      "triton": "3.9.0"
+    },
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+    "python": "3.12.15",
+    "upstream": {
+      "CC2Vec": {
+        "files": {
+          "bfp_PNExtended.py": "afebe0b19a1d2ba2b4d606a87e75f2b8e30e46cd91d10d636fa0203e54c6a51a",
+          "bfp_PNExtended_eval.py": "803375d288e036d2c84f5f43cf3325deb0d7a1a192f20f81b0715777c03eab82",
+          "bfp_PNExtended_model.py": "9b73bd3b05b096693a7cccd9be5ce0cd49d916fa7a3e2706fd1122538ccb46c7",
+          "bfp_PNExtended_train.py": "67fc829943d454edb7856c24c2c1216578d050d69ae9fff73290c15a99a29f86",
+          "bfp_cc2ftr.py": "062384e0bdd1dc965dc3b3c003292d128f19fa8fcdd9dc5770d1c30c3126d23d",
+          "bfp_cc2ftr_extracted.py": "a155e8c2c9bc4a81c4d2002c217cbdaa05156dc7cdb170eb364ef5449825d1ab",
+          "bfp_cc2ftr_model.py": "501359f3a8bf13a858dac91fef49154697a8a4c61eb735bfb9d0abd0927f24bf",
+          "bfp_cc2ftr_train.py": "20550ac6f58b6ec6c591b3d397454e21d20e6dd79bf788d839eb5efd8e5a9d1c",
+          "bfp_extracting.py": "828e9070bfc5df41c6f5e6e0674c07e30a82bf71db7734abf46d574d6f95d92d",
+          "bfp_padding.py": "91717bd17e64ee11c1ecd0ec6dc12969f1595afd44f61810a9cd24d5f03ab7bb",
+          "bfp_preprocessing.py": "b3fc7321f16bc89c37100628f6abfcbf032bbd60c3de59937ac9567a8c1203e3",
+          "bfp_reformating.py": "9c54f52da98dc300bb56f74c8d1dfc85215dade42addeeffd612276c5d52b15b",
+          "bfp_utils.py": "beab19bf6095f9fcb8e7928e816bccc1fe2cdb7daac3bd50a9a646bf7f06f557",
+          "jit_DExtended.py": "c3a480c101bc5931aae1a1d403fb4bb0f9aad1e0c60c5852cd96cea457b6f53e",
+          "jit_DExtended_eval.py": "9a744f3380fbd51efc77221c63ad8f3acc63bba1804e022bd02dfbb0e95b0553",
+          "jit_DExtended_model.py": "01b28525b634f7fc45ba099800a8280b59a451dfd5e803bc87061e0e52351af8",
+          "jit_DExtended_padding.py": "852600325b52e126c0ea9bb9ba547e4b03941f6ce8c73184afecc15582073d9a",
+          "jit_DExtended_train.py": "da564c33ad9e8ccdc3d90b0787317dee1969a86cd00bf367493a7e561636a24b",
+          "jit_cc2ftr.py": "aef55ec9a55ac831cac9c0a583389ec6350f7326279feaea12152c6d46902536",
+          "jit_cc2ftr_extracted.py": "53801c474fde685175b0d0d469abea3931bf1d4bb7685e00aafee4f721984232",
+          "jit_cc2ftr_model.py": "6a48660051844b67327b0b5d3bd637ccdb39f61e9879df3a550d8dc342fe7ef3",
+          "jit_cc2ftr_train.py": "e2ac142c994a3266cab0973138e76f234a61f44c3511707d5ae7ec5c26ac0312",
+          "jit_padding.py": "6c76b9a0a8921482acd0d189f69e765b7c9d76a62de944645829b3bdd2251171",
+          "jit_utils.py": "bee807e35bd78ba505e8e1cd95f06be2e6c106130d2ee6daf50c15fb252a0650",
+          "lmg_cc2ftr.py": "5d3943e36443f0fe14ef03e2294831ad30d540f1c8f608baad9377ec45e192b8",
+          "lmg_cc2ftr_extracted.py": "f5f61c91d9afe5e70094bf2728ca62b0e826e77368ab94cb2fba6d0846babbf1",
+          "lmg_cc2ftr_model.py": "17f3b881ad2deecdd2327f7f9cf69f1f42ea814f653c725da6dd767539940e1c",
+          "lmg_cc2ftr_train.py": "9badf97f822b114f5c597e2486d65e326d52e3a7b009b704559448621c525dd5",
+          "lmg_eval.py": "c8b426379e772722cd1e907ae2f743a423c86a1eb51385e5754baabf2575c5e7",
+          "lmg_padding.py": "6c450d4e46a12bd401ca0971ba61b960ce8b78f8138fb596a6e7678090c46bf2",
+          "lmg_utils.py": "e028ab57b88532577b1739a175513a1ee5047db9ff4b04decff27598eefaaa4c"
+        },
+        "revision": "211d6704bd592518458a13a8c13dc4bfcb0a72b7"
+      },
+      "DeepJIT": {
+        "files": {
+          "evaluation.py": "4fe71170284e9edfb140776bf63f71aa179f7e37d21901fda298bf65aaebc185",
+          "main.py": "0e6860da18a7dc6c7cf2f4d9bd1e8549d3b3867696c29b03c1efe51d5cdea452",
+          "model.py": "fab239bd12a31b52a95e3e75b950b7d011d1cf8632b5b0a77e17664a033e3dc7",
+          "padding.py": "852600325b52e126c0ea9bb9ba547e4b03941f6ce8c73184afecc15582073d9a",
+          "train.py": "9c7323f4fed754a8c9a4f97d9a3a3ec4cc2bd34be2012b6ff339e706c088978b",
+          "utils.py": "eb5dbddedc08540de14edca3b519ddcac04b4ed9546246bfe4559bf2ebc4dadd"
+        },
+        "revision": "bb3dd8a10dcfc44383c15734bb18e6a1ddc6ba45"
+      },
+      "JITLine-replication-package": {
+        "files": {
+          "CC2Vec_Modified/jit_DExtended.py": "8d78f539450d7031bcce0f384289b46faabe1571eca28cc38c2d24428fab91c8",
+          "CC2Vec_Modified/jit_DExtended_eval.py": "7071782337759bd42a1da473005ebb4b984671a08b59da943057c3e74c52cfa7",
+          "CC2Vec_Modified/jit_DExtended_model.py": "3b33d188075074e9bad86d320fa6253ebc97c971a534dc2164d0c08cbe406c0e",
+          "CC2Vec_Modified/jit_DExtended_padding.py": "852600325b52e126c0ea9bb9ba547e4b03941f6ce8c73184afecc15582073d9a",
+          "CC2Vec_Modified/jit_DExtended_train.py": "1c40c6d49e6576fc5768127b7047c48099726164ada77509f7e86ebba9a3e557",
+          "CC2Vec_Modified/jit_cc2ftr.py": "687d982e4cfab8f4ef60b4b35e1961b7d6bec2b659f9fbe2e602954cb65577d0",
+          "CC2Vec_Modified/jit_cc2ftr_extracted.py": "53801c474fde685175b0d0d469abea3931bf1d4bb7685e00aafee4f721984232",
+          "CC2Vec_Modified/jit_cc2ftr_model.py": "e716cf7a60569fd7580eefffb862b51b421d9ccc98950c3356db60ab3b4560a3",
+          "CC2Vec_Modified/jit_cc2ftr_train.py": "7ca66fc3a9558c5c400491c7595f157114c7f47ae18fb8ef5ffd89bbe5c1834f",
+          "CC2Vec_Modified/jit_padding.py": "6c76b9a0a8921482acd0d189f69e765b7c9d76a62de944645829b3bdd2251171",
+          "CC2Vec_Modified/jit_utils.py": "bee807e35bd78ba505e8e1cd95f06be2e6c106130d2ee6daf50c15fb252a0650",
+          "CC2Vec_Original/jit_DExtended.py": "8d78f539450d7031bcce0f384289b46faabe1571eca28cc38c2d24428fab91c8",
+          "CC2Vec_Original/jit_DExtended_eval.py": "7071782337759bd42a1da473005ebb4b984671a08b59da943057c3e74c52cfa7",
+          "CC2Vec_Original/jit_DExtended_model.py": "3b33d188075074e9bad86d320fa6253ebc97c971a534dc2164d0c08cbe406c0e",
+          "CC2Vec_Original/jit_DExtended_padding.py": "852600325b52e126c0ea9bb9ba547e4b03941f6ce8c73184afecc15582073d9a",
+          "CC2Vec_Original/jit_DExtended_train.py": "1c40c6d49e6576fc5768127b7047c48099726164ada77509f7e86ebba9a3e557",
+          "CC2Vec_Original/jit_cc2ftr.py": "0ab988cec64dd9197b4c9840fce0b11d7581425f3e2e87d36636845adf585ed0",
+          "CC2Vec_Original/jit_cc2ftr_extracted.py": "53801c474fde685175b0d0d469abea3931bf1d4bb7685e00aafee4f721984232",
+          "CC2Vec_Original/jit_cc2ftr_model.py": "e716cf7a60569fd7580eefffb862b51b421d9ccc98950c3356db60ab3b4560a3",
+          "CC2Vec_Original/jit_cc2ftr_train.py": "7ca66fc3a9558c5c400491c7595f157114c7f47ae18fb8ef5ffd89bbe5c1834f",
+          "CC2Vec_Original/jit_padding.py": "6c76b9a0a8921482acd0d189f69e765b7c9d76a62de944645829b3bdd2251171",
+          "CC2Vec_Original/jit_utils.py": "bee807e35bd78ba505e8e1cd95f06be2e6c106130d2ee6daf50c15fb252a0650",
+          "JITLine/my_util.py": "f49e476704a86fac8bfc170f35eb01a3f391b654bd90140480ac8aa90bcb773c"
+        },
+        "revision": "1e06d33b44c19565301d31fce9984afbb8b3127c"
+      }
+    }
+  },
+  "split_hash": "d4a17b95401cb03429d1a0a888b1bbbea20d7d3240b042a5416e748666f5a139"
+}

@@ -1,0 +1,104 @@
+{
+  "verified_runs": [
+    {
+      "model": "deepjit",
+      "run": "experiment_v5",
+      "seed": 11,
+      "history": {
+        "classifier": 20
+      },
+      "threshold": 0.59,
+      "runtime_seconds": 1096.0911656040698
+    },
+    {
+      "model": "deepjit",
+      "run": "experiment_v5",
+      "seed": 23,
+      "history": {
+        "classifier": 20
+      },
+      "threshold": 0.45,
+      "runtime_seconds": 1096.174509875942
+    },
+    {
+      "model": "deepjit",
+      "run": "experiment_v5",
+      "seed": 37,
+      "history": {
+        "classifier": 20
+      },
+      "threshold": 0.61,
+      "runtime_seconds": 1097.067623901181
+    },
+    {
+      "model": "cc2vec",
+      "run": "experiment_v6",
+      "seed": 11,
+      "history": {
+        "classifier": 12,
+        "representation": 6
+      },
+      "threshold": 0.5,
+      "runtime_seconds": 626.3563040620647
+    },
+    {
+      "model": "cc2vec",
+      "run": "experiment_v6",
+      "seed": 23,
+      "history": {
+        "classifier": 7,
+        "representation": 7
+      },
+      "threshold": 0.5,
+      "runtime_seconds": 681.9968781280331
+    },
+    {
+      "model": "cc2vec",
+      "run": "experiment_v6",
+      "seed": 37,
+      "history": {
+        "classifier": 9,
+        "representation": 7
+      },
+      "threshold": 0.5,
+      "runtime_seconds": 684.5193115649745
+    },
+    {
+      "model": "jitline_apachejit",
+      "run": "experiment_v6",
+      "seed": 11,
+      "history": {
+        "fitted_rows": 35998,
+        "resampling": "smote_k=20"
+      },
+      "threshold": 0.49,
+      "runtime_seconds": 692.1582366481889
+    },
+    {
+      "model": "jitline_apachejit",
+      "run": "experiment_v6",
+      "seed": 23,
+      "history": {
+        "fitted_rows": 35998,
+        "resampling": "smote_k=20"
+      },
+      "threshold": 0.56,
+      "runtime_seconds": 696.006832967978
+    },
+    {
+      "model": "jitline_apachejit",
+      "run": "experiment_v6",
+      "seed": 37,
+      "history": {
+        "fitted_rows": 35998,
+        "resampling": "smote_k=20"
+      },
+      "threshold": 0.56,
+      "runtime_seconds": 683.3595168599859
+    }
+  ],
+  "selection_sha256": {
+    "experiment_v5": "d8cf198eb8aa34c62e20bc3acec877fde190db1dbedc168294cf6d893b6c1a11",
+    "experiment_v6": "d8cf198eb8aa34c62e20bc3acec877fde190db1dbedc168294cf6d893b6c1a11"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "analysis_only": true,
+  "models": {
+    "cc2vec": {
+      "experiment_identity": "a159348c197bda779e51917b4189487ee697b704dcc8851b9fd47be96e367020",
+      "prediction_sha256": {
+        "11": "d9e6ed67a9dd67a71f0fcd32a21c2ca9b8d2269414eff05ff126c81bf84ca4d5",
+        "23": "a8f5903c12682c5aa0fde6b3a3154d151a8b7877dbdc1dd024e615e446523453",
+        "37": "16b4ff632d15bad62af1e094ef800e886b0e5149e2b37b3cba70e8d43af1d60e"
+      },
+      "source_run": "experiment_v6"
+    },
+    "deepjit": {
+      "experiment_identity": "d8c79529d01652d0d57c2952a28153aedf5a1470821d9817988c60822156e917",
+      "prediction_sha256": {
+        "11": "4627ee923d3a57b7962407c1de77fcad8eb89be7bfecd06ce5d6000c3a9f7084",
+        "23": "c87894b6c44bd766c83df2592a8f1d20c4fe3cdaa96b6b132ed610b2e2eddae7",
+        "37": "27df993d008e657c719764edff53a5fbc8721eccc0075b2927e5a8f55a301532"
+      },
+      "source_run": "experiment_v5"
+    },
+    "jitline_apachejit": {
+      "experiment_identity": "a159348c197bda779e51917b4189487ee697b704dcc8851b9fd47be96e367020",
+      "prediction_sha256": {
+        "11": "2c2e60f6f5642c0e02c30ecb74d415ffd9a3766e07314e80bfb99c99e609ce89",
+        "23": "9bbf098610071c74b37643fa515784851e863eafbe16c0b082857ae95e866909",
+        "37": "83d8fdac8fbde8ab959a06855b745e604454023d58984486ddd3b69bc0b5001b"
+      },
+      "source_run": "experiment_v6"
+    }
+  },
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "settings": {
+    "bootstrap_draws": 1000,
+    "permutation_draws": 9999,
+    "seed": 2026
+  },
+  "split_hash": "d4a17b95401cb03429d1a0a888b1bbbea20d7d3240b042a5416e748666f5a139",
+  "test_commit_count": 30111
+}

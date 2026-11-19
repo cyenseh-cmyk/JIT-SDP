@@ -1,0 +1,541 @@
+status,model,seed,project,condition,expected,applicable,effective,noop,structural_na,missing
+READY,deepjit,11,apache/activemq,T1,273,273,0,273,0,0
+READY,deepjit,11,apache/activemq,T2,273,208,176,32,65,0
+READY,deepjit,11,apache/activemq,T3,273,273,273,0,0,0
+READY,deepjit,11,apache/activemq,T4,273,273,273,0,0,0
+READY,deepjit,11,apache/camel,T1,6432,6432,0,6432,0,0
+READY,deepjit,11,apache/camel,T2,6432,4728,3481,1247,1704,0
+READY,deepjit,11,apache/camel,T3,6432,6432,6432,0,0,0
+READY,deepjit,11,apache/camel,T4,6432,6432,6432,0,0,0
+READY,deepjit,11,apache/cassandra,T1,554,554,0,554,0,0
+READY,deepjit,11,apache/cassandra,T2,554,455,354,101,99,0
+READY,deepjit,11,apache/cassandra,T3,554,554,554,0,0,0
+READY,deepjit,11,apache/cassandra,T4,554,554,554,0,0,0
+READY,deepjit,11,apache/flink,T1,5454,5454,0,5454,0,0
+READY,deepjit,11,apache/flink,T2,5454,4464,3188,1276,990,0
+READY,deepjit,11,apache/flink,T3,5454,5454,5454,0,0,0
+READY,deepjit,11,apache/flink,T4,5454,5454,5454,0,0,0
+READY,deepjit,11,apache/groovy,T1,1351,1351,0,1351,0,0
+READY,deepjit,11,apache/groovy,T2,1351,1161,986,175,190,0
+READY,deepjit,11,apache/groovy,T3,1351,1351,1351,0,0,0
+READY,deepjit,11,apache/groovy,T4,1351,1351,1351,0,0,0
+READY,deepjit,11,apache/hadoop,T1,5421,5421,0,5421,0,0
+READY,deepjit,11,apache/hadoop,T2,5421,4697,3328,1369,724,0
+READY,deepjit,11,apache/hadoop,T3,5421,5421,5421,0,0,0
+READY,deepjit,11,apache/hadoop,T4,5421,5421,5421,0,0,0
+READY,deepjit,11,apache/hadoop-hdfs,T1,342,342,0,342,0,0
+READY,deepjit,11,apache/hadoop-hdfs,T2,342,250,176,74,92,0
+READY,deepjit,11,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+READY,deepjit,11,apache/hadoop-hdfs,T4,342,342,342,0,0,0
+READY,deepjit,11,apache/hadoop-mapreduce,T1,24,24,0,24,0,0
+READY,deepjit,11,apache/hadoop-mapreduce,T2,24,14,10,4,10,0
+READY,deepjit,11,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+READY,deepjit,11,apache/hadoop-mapreduce,T4,24,24,24,0,0,0
+READY,deepjit,11,apache/hbase,T1,2158,2158,0,2158,0,0
+READY,deepjit,11,apache/hbase,T2,2158,1789,1317,472,369,0
+READY,deepjit,11,apache/hbase,T3,2158,2158,2158,0,0,0
+READY,deepjit,11,apache/hbase,T4,2158,2158,2158,0,0,0
+READY,deepjit,11,apache/hive,T1,2090,2090,0,2090,0,0
+READY,deepjit,11,apache/hive,T2,2090,1691,1244,447,399,0
+READY,deepjit,11,apache/hive,T3,2090,2090,2090,0,0,0
+READY,deepjit,11,apache/hive,T4,2090,2090,2090,0,0,0
+READY,deepjit,11,apache/ignite,T1,3064,3064,0,3064,0,0
+READY,deepjit,11,apache/ignite,T2,3064,2467,1761,706,597,0
+READY,deepjit,11,apache/ignite,T3,3064,3064,3064,0,0,0
+READY,deepjit,11,apache/ignite,T4,3064,3064,3064,0,0,0
+READY,deepjit,11,apache/kafka,T1,1640,1640,0,1640,0,0
+READY,deepjit,11,apache/kafka,T2,1640,1460,1147,313,180,0
+READY,deepjit,11,apache/kafka,T3,1640,1640,1640,0,0,0
+READY,deepjit,11,apache/kafka,T4,1640,1640,1640,0,0,0
+READY,deepjit,11,apache/spark,T1,539,539,0,539,0,0
+READY,deepjit,11,apache/spark,T2,539,465,331,134,74,0
+READY,deepjit,11,apache/spark,T3,539,539,539,0,0,0
+READY,deepjit,11,apache/spark,T4,539,539,539,0,0,0
+READY,deepjit,11,apache/zeppelin,T1,513,513,0,513,0,0
+READY,deepjit,11,apache/zeppelin,T2,513,433,336,97,80,0
+READY,deepjit,11,apache/zeppelin,T3,513,513,513,0,0,0
+READY,deepjit,11,apache/zeppelin,T4,513,513,513,0,0,0
+READY,deepjit,11,apache/zookeeper,T1,256,256,0,256,0,0
+READY,deepjit,11,apache/zookeeper,T2,256,212,144,68,44,0
+READY,deepjit,11,apache/zookeeper,T3,256,256,256,0,0,0
+READY,deepjit,11,apache/zookeeper,T4,256,256,256,0,0,0
+READY,deepjit,23,apache/activemq,T1,273,273,0,273,0,0
+READY,deepjit,23,apache/activemq,T2,273,208,176,32,65,0
+READY,deepjit,23,apache/activemq,T3,273,273,273,0,0,0
+READY,deepjit,23,apache/activemq,T4,273,273,273,0,0,0
+READY,deepjit,23,apache/camel,T1,6432,6432,0,6432,0,0
+READY,deepjit,23,apache/camel,T2,6432,4728,3481,1247,1704,0
+READY,deepjit,23,apache/camel,T3,6432,6432,6432,0,0,0
+READY,deepjit,23,apache/camel,T4,6432,6432,6432,0,0,0
+READY,deepjit,23,apache/cassandra,T1,554,554,0,554,0,0
+READY,deepjit,23,apache/cassandra,T2,554,455,354,101,99,0
+READY,deepjit,23,apache/cassandra,T3,554,554,554,0,0,0
+READY,deepjit,23,apache/cassandra,T4,554,554,554,0,0,0
+READY,deepjit,23,apache/flink,T1,5454,5454,0,5454,0,0
+READY,deepjit,23,apache/flink,T2,5454,4464,3188,1276,990,0
+READY,deepjit,23,apache/flink,T3,5454,5454,5454,0,0,0
+READY,deepjit,23,apache/flink,T4,5454,5454,5454,0,0,0
+READY,deepjit,23,apache/groovy,T1,1351,1351,0,1351,0,0
+READY,deepjit,23,apache/groovy,T2,1351,1161,986,175,190,0
+READY,deepjit,23,apache/groovy,T3,1351,1351,1351,0,0,0
+READY,deepjit,23,apache/groovy,T4,1351,1351,1351,0,0,0
+READY,deepjit,23,apache/hadoop,T1,5421,5421,0,5421,0,0
+READY,deepjit,23,apache/hadoop,T2,5421,4697,3328,1369,724,0
+READY,deepjit,23,apache/hadoop,T3,5421,5421,5421,0,0,0
+READY,deepjit,23,apache/hadoop,T4,5421,5421,5421,0,0,0
+READY,deepjit,23,apache/hadoop-hdfs,T1,342,342,0,342,0,0
+READY,deepjit,23,apache/hadoop-hdfs,T2,342,250,176,74,92,0
+READY,deepjit,23,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+READY,deepjit,23,apache/hadoop-hdfs,T4,342,342,342,0,0,0
+READY,deepjit,23,apache/hadoop-mapreduce,T1,24,24,0,24,0,0
+READY,deepjit,23,apache/hadoop-mapreduce,T2,24,14,10,4,10,0
+READY,deepjit,23,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+READY,deepjit,23,apache/hadoop-mapreduce,T4,24,24,24,0,0,0
+READY,deepjit,23,apache/hbase,T1,2158,2158,0,2158,0,0
+READY,deepjit,23,apache/hbase,T2,2158,1789,1317,472,369,0
+READY,deepjit,23,apache/hbase,T3,2158,2158,2158,0,0,0
+READY,deepjit,23,apache/hbase,T4,2158,2158,2158,0,0,0
+READY,deepjit,23,apache/hive,T1,2090,2090,0,2090,0,0
+READY,deepjit,23,apache/hive,T2,2090,1691,1244,447,399,0
+READY,deepjit,23,apache/hive,T3,2090,2090,2090,0,0,0
+READY,deepjit,23,apache/hive,T4,2090,2090,2090,0,0,0
+READY,deepjit,23,apache/ignite,T1,3064,3064,0,3064,0,0
+READY,deepjit,23,apache/ignite,T2,3064,2467,1761,706,597,0
+READY,deepjit,23,apache/ignite,T3,3064,3064,3064,0,0,0
+READY,deepjit,23,apache/ignite,T4,3064,3064,3064,0,0,0
+READY,deepjit,23,apache/kafka,T1,1640,1640,0,1640,0,0
+READY,deepjit,23,apache/kafka,T2,1640,1460,1147,313,180,0
+READY,deepjit,23,apache/kafka,T3,1640,1640,1640,0,0,0
+READY,deepjit,23,apache/kafka,T4,1640,1640,1640,0,0,0
+READY,deepjit,23,apache/spark,T1,539,539,0,539,0,0
+READY,deepjit,23,apache/spark,T2,539,465,331,134,74,0
+READY,deepjit,23,apache/spark,T3,539,539,539,0,0,0
+READY,deepjit,23,apache/spark,T4,539,539,539,0,0,0
+READY,deepjit,23,apache/zeppelin,T1,513,513,0,513,0,0
+READY,deepjit,23,apache/zeppelin,T2,513,433,336,97,80,0
+READY,deepjit,23,apache/zeppelin,T3,513,513,513,0,0,0
+READY,deepjit,23,apache/zeppelin,T4,513,513,513,0,0,0
+READY,deepjit,23,apache/zookeeper,T1,256,256,0,256,0,0
+READY,deepjit,23,apache/zookeeper,T2,256,212,144,68,44,0
+READY,deepjit,23,apache/zookeeper,T3,256,256,256,0,0,0
+READY,deepjit,23,apache/zookeeper,T4,256,256,256,0,0,0
+READY,deepjit,37,apache/activemq,T1,273,273,0,273,0,0
+READY,deepjit,37,apache/activemq,T2,273,208,176,32,65,0
+READY,deepjit,37,apache/activemq,T3,273,273,273,0,0,0
+READY,deepjit,37,apache/activemq,T4,273,273,273,0,0,0
+READY,deepjit,37,apache/camel,T1,6432,6432,0,6432,0,0
+READY,deepjit,37,apache/camel,T2,6432,4728,3481,1247,1704,0
+READY,deepjit,37,apache/camel,T3,6432,6432,6432,0,0,0
+READY,deepjit,37,apache/camel,T4,6432,6432,6432,0,0,0
+READY,deepjit,37,apache/cassandra,T1,554,554,0,554,0,0
+READY,deepjit,37,apache/cassandra,T2,554,455,354,101,99,0
+READY,deepjit,37,apache/cassandra,T3,554,554,554,0,0,0
+READY,deepjit,37,apache/cassandra,T4,554,554,554,0,0,0
+READY,deepjit,37,apache/flink,T1,5454,5454,0,5454,0,0
+READY,deepjit,37,apache/flink,T2,5454,4464,3188,1276,990,0
+READY,deepjit,37,apache/flink,T3,5454,5454,5454,0,0,0
+READY,deepjit,37,apache/flink,T4,5454,5454,5454,0,0,0
+READY,deepjit,37,apache/groovy,T1,1351,1351,0,1351,0,0
+READY,deepjit,37,apache/groovy,T2,1351,1161,986,175,190,0
+READY,deepjit,37,apache/groovy,T3,1351,1351,1351,0,0,0
+READY,deepjit,37,apache/groovy,T4,1351,1351,1351,0,0,0
+READY,deepjit,37,apache/hadoop,T1,5421,5421,0,5421,0,0
+READY,deepjit,37,apache/hadoop,T2,5421,4697,3328,1369,724,0
+READY,deepjit,37,apache/hadoop,T3,5421,5421,5421,0,0,0
+READY,deepjit,37,apache/hadoop,T4,5421,5421,5421,0,0,0
+READY,deepjit,37,apache/hadoop-hdfs,T1,342,342,0,342,0,0
+READY,deepjit,37,apache/hadoop-hdfs,T2,342,250,176,74,92,0
+READY,deepjit,37,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+READY,deepjit,37,apache/hadoop-hdfs,T4,342,342,342,0,0,0
+READY,deepjit,37,apache/hadoop-mapreduce,T1,24,24,0,24,0,0
+READY,deepjit,37,apache/hadoop-mapreduce,T2,24,14,10,4,10,0
+READY,deepjit,37,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+READY,deepjit,37,apache/hadoop-mapreduce,T4,24,24,24,0,0,0
+READY,deepjit,37,apache/hbase,T1,2158,2158,0,2158,0,0
+READY,deepjit,37,apache/hbase,T2,2158,1789,1317,472,369,0
+READY,deepjit,37,apache/hbase,T3,2158,2158,2158,0,0,0
+READY,deepjit,37,apache/hbase,T4,2158,2158,2158,0,0,0
+READY,deepjit,37,apache/hive,T1,2090,2090,0,2090,0,0
+READY,deepjit,37,apache/hive,T2,2090,1691,1244,447,399,0
+READY,deepjit,37,apache/hive,T3,2090,2090,2090,0,0,0
+READY,deepjit,37,apache/hive,T4,2090,2090,2090,0,0,0
+READY,deepjit,37,apache/ignite,T1,3064,3064,0,3064,0,0
+READY,deepjit,37,apache/ignite,T2,3064,2467,1761,706,597,0
+READY,deepjit,37,apache/ignite,T3,3064,3064,3064,0,0,0
+READY,deepjit,37,apache/ignite,T4,3064,3064,3064,0,0,0
+READY,deepjit,37,apache/kafka,T1,1640,1640,0,1640,0,0
+READY,deepjit,37,apache/kafka,T2,1640,1460,1147,313,180,0
+READY,deepjit,37,apache/kafka,T3,1640,1640,1640,0,0,0
+READY,deepjit,37,apache/kafka,T4,1640,1640,1640,0,0,0
+READY,deepjit,37,apache/spark,T1,539,539,0,539,0,0
+READY,deepjit,37,apache/spark,T2,539,465,331,134,74,0
+READY,deepjit,37,apache/spark,T3,539,539,539,0,0,0
+READY,deepjit,37,apache/spark,T4,539,539,539,0,0,0
+READY,deepjit,37,apache/zeppelin,T1,513,513,0,513,0,0
+READY,deepjit,37,apache/zeppelin,T2,513,433,336,97,80,0
+READY,deepjit,37,apache/zeppelin,T3,513,513,513,0,0,0
+READY,deepjit,37,apache/zeppelin,T4,513,513,513,0,0,0
+READY,deepjit,37,apache/zookeeper,T1,256,256,0,256,0,0
+READY,deepjit,37,apache/zookeeper,T2,256,212,144,68,44,0
+READY,deepjit,37,apache/zookeeper,T3,256,256,256,0,0,0
+READY,deepjit,37,apache/zookeeper,T4,256,256,256,0,0,0
+READY,cc2vec,11,apache/activemq,T1,273,273,270,3,0,0
+READY,cc2vec,11,apache/activemq,T2,273,208,194,14,65,0
+READY,cc2vec,11,apache/activemq,T3,273,273,273,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/activemq,T4,273,0,0,0,273,0
+READY,cc2vec,11,apache/camel,T1,6432,6432,6177,255,0,0
+READY,cc2vec,11,apache/camel,T2,6432,4728,4083,645,1704,0
+READY,cc2vec,11,apache/camel,T3,6432,6432,6431,1,0,0
+NOT APPLICABLE,cc2vec,11,apache/camel,T4,6432,0,0,0,6432,0
+READY,cc2vec,11,apache/cassandra,T1,554,554,548,6,0,0
+READY,cc2vec,11,apache/cassandra,T2,554,455,403,52,99,0
+READY,cc2vec,11,apache/cassandra,T3,554,554,554,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/cassandra,T4,554,0,0,0,554,0
+READY,cc2vec,11,apache/flink,T1,5454,5454,5341,113,0,0
+READY,cc2vec,11,apache/flink,T2,5454,4464,3845,619,990,0
+READY,cc2vec,11,apache/flink,T3,5454,5454,5452,2,0,0
+NOT APPLICABLE,cc2vec,11,apache/flink,T4,5454,0,0,0,5454,0
+READY,cc2vec,11,apache/groovy,T1,1351,1351,1331,20,0,0
+READY,cc2vec,11,apache/groovy,T2,1351,1161,1077,84,190,0
+READY,cc2vec,11,apache/groovy,T3,1351,1351,1351,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/groovy,T4,1351,0,0,0,1351,0
+READY,cc2vec,11,apache/hadoop,T1,5421,5421,5371,50,0,0
+READY,cc2vec,11,apache/hadoop,T2,5421,4697,4052,645,724,0
+READY,cc2vec,11,apache/hadoop,T3,5421,5421,5420,1,0,0
+NOT APPLICABLE,cc2vec,11,apache/hadoop,T4,5421,0,0,0,5421,0
+READY,cc2vec,11,apache/hadoop-hdfs,T1,342,342,341,1,0,0
+READY,cc2vec,11,apache/hadoop-hdfs,T2,342,250,221,29,92,0
+READY,cc2vec,11,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/hadoop-hdfs,T4,342,0,0,0,342,0
+READY,cc2vec,11,apache/hadoop-mapreduce,T1,24,24,24,0,0,0
+READY,cc2vec,11,apache/hadoop-mapreduce,T2,24,14,14,0,10,0
+READY,cc2vec,11,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/hadoop-mapreduce,T4,24,0,0,0,24,0
+READY,cc2vec,11,apache/hbase,T1,2158,2158,2139,19,0,0
+READY,cc2vec,11,apache/hbase,T2,2158,1789,1575,214,369,0
+READY,cc2vec,11,apache/hbase,T3,2158,2158,2158,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/hbase,T4,2158,0,0,0,2158,0
+READY,cc2vec,11,apache/hive,T1,2090,2090,2080,10,0,0
+READY,cc2vec,11,apache/hive,T2,2090,1691,1490,201,399,0
+READY,cc2vec,11,apache/hive,T3,2090,2090,2090,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/hive,T4,2090,0,0,0,2090,0
+READY,cc2vec,11,apache/ignite,T1,3064,3064,3038,26,0,0
+READY,cc2vec,11,apache/ignite,T2,3064,2467,2149,318,597,0
+READY,cc2vec,11,apache/ignite,T3,3064,3064,3064,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/ignite,T4,3064,0,0,0,3064,0
+READY,cc2vec,11,apache/kafka,T1,1640,1640,1623,17,0,0
+READY,cc2vec,11,apache/kafka,T2,1640,1460,1326,134,180,0
+READY,cc2vec,11,apache/kafka,T3,1640,1640,1640,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/kafka,T4,1640,0,0,0,1640,0
+READY,cc2vec,11,apache/spark,T1,539,539,536,3,0,0
+READY,cc2vec,11,apache/spark,T2,539,465,392,73,74,0
+READY,cc2vec,11,apache/spark,T3,539,539,539,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/spark,T4,539,0,0,0,539,0
+READY,cc2vec,11,apache/zeppelin,T1,513,513,506,7,0,0
+READY,cc2vec,11,apache/zeppelin,T2,513,433,391,42,80,0
+READY,cc2vec,11,apache/zeppelin,T3,513,513,512,1,0,0
+NOT APPLICABLE,cc2vec,11,apache/zeppelin,T4,513,0,0,0,513,0
+READY,cc2vec,11,apache/zookeeper,T1,256,256,251,5,0,0
+READY,cc2vec,11,apache/zookeeper,T2,256,212,178,34,44,0
+READY,cc2vec,11,apache/zookeeper,T3,256,256,256,0,0,0
+NOT APPLICABLE,cc2vec,11,apache/zookeeper,T4,256,0,0,0,256,0
+READY,cc2vec,23,apache/activemq,T1,273,273,270,3,0,0
+READY,cc2vec,23,apache/activemq,T2,273,208,194,14,65,0
+READY,cc2vec,23,apache/activemq,T3,273,273,273,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/activemq,T4,273,0,0,0,273,0
+READY,cc2vec,23,apache/camel,T1,6432,6432,6177,255,0,0
+READY,cc2vec,23,apache/camel,T2,6432,4728,4083,645,1704,0
+READY,cc2vec,23,apache/camel,T3,6432,6432,6431,1,0,0
+NOT APPLICABLE,cc2vec,23,apache/camel,T4,6432,0,0,0,6432,0
+READY,cc2vec,23,apache/cassandra,T1,554,554,548,6,0,0
+READY,cc2vec,23,apache/cassandra,T2,554,455,403,52,99,0
+READY,cc2vec,23,apache/cassandra,T3,554,554,554,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/cassandra,T4,554,0,0,0,554,0
+READY,cc2vec,23,apache/flink,T1,5454,5454,5341,113,0,0
+READY,cc2vec,23,apache/flink,T2,5454,4464,3845,619,990,0
+READY,cc2vec,23,apache/flink,T3,5454,5454,5452,2,0,0
+NOT APPLICABLE,cc2vec,23,apache/flink,T4,5454,0,0,0,5454,0
+READY,cc2vec,23,apache/groovy,T1,1351,1351,1331,20,0,0
+READY,cc2vec,23,apache/groovy,T2,1351,1161,1077,84,190,0
+READY,cc2vec,23,apache/groovy,T3,1351,1351,1351,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/groovy,T4,1351,0,0,0,1351,0
+READY,cc2vec,23,apache/hadoop,T1,5421,5421,5371,50,0,0
+READY,cc2vec,23,apache/hadoop,T2,5421,4697,4052,645,724,0
+READY,cc2vec,23,apache/hadoop,T3,5421,5421,5420,1,0,0
+NOT APPLICABLE,cc2vec,23,apache/hadoop,T4,5421,0,0,0,5421,0
+READY,cc2vec,23,apache/hadoop-hdfs,T1,342,342,341,1,0,0
+READY,cc2vec,23,apache/hadoop-hdfs,T2,342,250,221,29,92,0
+READY,cc2vec,23,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/hadoop-hdfs,T4,342,0,0,0,342,0
+READY,cc2vec,23,apache/hadoop-mapreduce,T1,24,24,24,0,0,0
+READY,cc2vec,23,apache/hadoop-mapreduce,T2,24,14,14,0,10,0
+READY,cc2vec,23,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/hadoop-mapreduce,T4,24,0,0,0,24,0
+READY,cc2vec,23,apache/hbase,T1,2158,2158,2139,19,0,0
+READY,cc2vec,23,apache/hbase,T2,2158,1789,1575,214,369,0
+READY,cc2vec,23,apache/hbase,T3,2158,2158,2158,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/hbase,T4,2158,0,0,0,2158,0
+READY,cc2vec,23,apache/hive,T1,2090,2090,2080,10,0,0
+READY,cc2vec,23,apache/hive,T2,2090,1691,1490,201,399,0
+READY,cc2vec,23,apache/hive,T3,2090,2090,2090,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/hive,T4,2090,0,0,0,2090,0
+READY,cc2vec,23,apache/ignite,T1,3064,3064,3038,26,0,0
+READY,cc2vec,23,apache/ignite,T2,3064,2467,2149,318,597,0
+READY,cc2vec,23,apache/ignite,T3,3064,3064,3064,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/ignite,T4,3064,0,0,0,3064,0
+READY,cc2vec,23,apache/kafka,T1,1640,1640,1623,17,0,0
+READY,cc2vec,23,apache/kafka,T2,1640,1460,1326,134,180,0
+READY,cc2vec,23,apache/kafka,T3,1640,1640,1640,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/kafka,T4,1640,0,0,0,1640,0
+READY,cc2vec,23,apache/spark,T1,539,539,536,3,0,0
+READY,cc2vec,23,apache/spark,T2,539,465,392,73,74,0
+READY,cc2vec,23,apache/spark,T3,539,539,539,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/spark,T4,539,0,0,0,539,0
+READY,cc2vec,23,apache/zeppelin,T1,513,513,506,7,0,0
+READY,cc2vec,23,apache/zeppelin,T2,513,433,391,42,80,0
+READY,cc2vec,23,apache/zeppelin,T3,513,513,512,1,0,0
+NOT APPLICABLE,cc2vec,23,apache/zeppelin,T4,513,0,0,0,513,0
+READY,cc2vec,23,apache/zookeeper,T1,256,256,251,5,0,0
+READY,cc2vec,23,apache/zookeeper,T2,256,212,178,34,44,0
+READY,cc2vec,23,apache/zookeeper,T3,256,256,256,0,0,0
+NOT APPLICABLE,cc2vec,23,apache/zookeeper,T4,256,0,0,0,256,0
+READY,cc2vec,37,apache/activemq,T1,273,273,270,3,0,0
+READY,cc2vec,37,apache/activemq,T2,273,208,194,14,65,0
+READY,cc2vec,37,apache/activemq,T3,273,273,273,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/activemq,T4,273,0,0,0,273,0
+READY,cc2vec,37,apache/camel,T1,6432,6432,6177,255,0,0
+READY,cc2vec,37,apache/camel,T2,6432,4728,4083,645,1704,0
+READY,cc2vec,37,apache/camel,T3,6432,6432,6431,1,0,0
+NOT APPLICABLE,cc2vec,37,apache/camel,T4,6432,0,0,0,6432,0
+READY,cc2vec,37,apache/cassandra,T1,554,554,548,6,0,0
+READY,cc2vec,37,apache/cassandra,T2,554,455,403,52,99,0
+READY,cc2vec,37,apache/cassandra,T3,554,554,554,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/cassandra,T4,554,0,0,0,554,0
+READY,cc2vec,37,apache/flink,T1,5454,5454,5341,113,0,0
+READY,cc2vec,37,apache/flink,T2,5454,4464,3845,619,990,0
+READY,cc2vec,37,apache/flink,T3,5454,5454,5452,2,0,0
+NOT APPLICABLE,cc2vec,37,apache/flink,T4,5454,0,0,0,5454,0
+READY,cc2vec,37,apache/groovy,T1,1351,1351,1331,20,0,0
+READY,cc2vec,37,apache/groovy,T2,1351,1161,1077,84,190,0
+READY,cc2vec,37,apache/groovy,T3,1351,1351,1351,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/groovy,T4,1351,0,0,0,1351,0
+READY,cc2vec,37,apache/hadoop,T1,5421,5421,5371,50,0,0
+READY,cc2vec,37,apache/hadoop,T2,5421,4697,4052,645,724,0
+READY,cc2vec,37,apache/hadoop,T3,5421,5421,5420,1,0,0
+NOT APPLICABLE,cc2vec,37,apache/hadoop,T4,5421,0,0,0,5421,0
+READY,cc2vec,37,apache/hadoop-hdfs,T1,342,342,341,1,0,0
+READY,cc2vec,37,apache/hadoop-hdfs,T2,342,250,221,29,92,0
+READY,cc2vec,37,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/hadoop-hdfs,T4,342,0,0,0,342,0
+READY,cc2vec,37,apache/hadoop-mapreduce,T1,24,24,24,0,0,0
+READY,cc2vec,37,apache/hadoop-mapreduce,T2,24,14,14,0,10,0
+READY,cc2vec,37,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/hadoop-mapreduce,T4,24,0,0,0,24,0
+READY,cc2vec,37,apache/hbase,T1,2158,2158,2139,19,0,0
+READY,cc2vec,37,apache/hbase,T2,2158,1789,1575,214,369,0
+READY,cc2vec,37,apache/hbase,T3,2158,2158,2158,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/hbase,T4,2158,0,0,0,2158,0
+READY,cc2vec,37,apache/hive,T1,2090,2090,2080,10,0,0
+READY,cc2vec,37,apache/hive,T2,2090,1691,1490,201,399,0
+READY,cc2vec,37,apache/hive,T3,2090,2090,2090,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/hive,T4,2090,0,0,0,2090,0
+READY,cc2vec,37,apache/ignite,T1,3064,3064,3038,26,0,0
+READY,cc2vec,37,apache/ignite,T2,3064,2467,2149,318,597,0
+READY,cc2vec,37,apache/ignite,T3,3064,3064,3064,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/ignite,T4,3064,0,0,0,3064,0
+READY,cc2vec,37,apache/kafka,T1,1640,1640,1623,17,0,0
+READY,cc2vec,37,apache/kafka,T2,1640,1460,1326,134,180,0
+READY,cc2vec,37,apache/kafka,T3,1640,1640,1640,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/kafka,T4,1640,0,0,0,1640,0
+READY,cc2vec,37,apache/spark,T1,539,539,536,3,0,0
+READY,cc2vec,37,apache/spark,T2,539,465,392,73,74,0
+READY,cc2vec,37,apache/spark,T3,539,539,539,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/spark,T4,539,0,0,0,539,0
+READY,cc2vec,37,apache/zeppelin,T1,513,513,506,7,0,0
+READY,cc2vec,37,apache/zeppelin,T2,513,433,391,42,80,0
+READY,cc2vec,37,apache/zeppelin,T3,513,513,512,1,0,0
+NOT APPLICABLE,cc2vec,37,apache/zeppelin,T4,513,0,0,0,513,0
+READY,cc2vec,37,apache/zookeeper,T1,256,256,251,5,0,0
+READY,cc2vec,37,apache/zookeeper,T2,256,212,178,34,44,0
+READY,cc2vec,37,apache/zookeeper,T3,256,256,256,0,0,0
+NOT APPLICABLE,cc2vec,37,apache/zookeeper,T4,256,0,0,0,256,0
+READY,jitline_apachejit,11,apache/activemq,T1,273,238,199,39,35,0
+READY,jitline_apachejit,11,apache/activemq,T2,273,184,122,62,89,0
+READY,jitline_apachejit,11,apache/activemq,T3,273,273,273,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/activemq,T4,273,0,0,0,273,0
+READY,jitline_apachejit,11,apache/camel,T1,6432,4006,3271,735,2426,0
+READY,jitline_apachejit,11,apache/camel,T2,6432,2974,1907,1067,3458,0
+READY,jitline_apachejit,11,apache/camel,T3,6432,6432,6432,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/camel,T4,6432,0,0,0,6432,0
+READY,jitline_apachejit,11,apache/cassandra,T1,554,147,99,48,407,0
+READY,jitline_apachejit,11,apache/cassandra,T2,554,112,54,58,442,0
+READY,jitline_apachejit,11,apache/cassandra,T3,554,554,554,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/cassandra,T4,554,0,0,0,554,0
+READY,jitline_apachejit,11,apache/flink,T1,5454,4257,3841,416,1197,0
+READY,jitline_apachejit,11,apache/flink,T2,5454,3432,2743,689,2022,0
+READY,jitline_apachejit,11,apache/flink,T3,5454,5454,5454,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/flink,T4,5454,0,0,0,5454,0
+READY,jitline_apachejit,11,apache/groovy,T1,1351,1190,979,211,161,0
+READY,jitline_apachejit,11,apache/groovy,T2,1351,1026,719,307,325,0
+READY,jitline_apachejit,11,apache/groovy,T3,1351,1351,1351,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/groovy,T4,1351,0,0,0,1351,0
+READY,jitline_apachejit,11,apache/hadoop,T1,5421,3887,3497,390,1534,0
+READY,jitline_apachejit,11,apache/hadoop,T2,5421,3312,2692,620,2109,0
+READY,jitline_apachejit,11,apache/hadoop,T3,5421,5421,5421,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/hadoop,T4,5421,0,0,0,5421,0
+READY,jitline_apachejit,11,apache/hadoop-hdfs,T1,342,235,223,12,107,0
+READY,jitline_apachejit,11,apache/hadoop-hdfs,T2,342,151,131,20,191,0
+READY,jitline_apachejit,11,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/hadoop-hdfs,T4,342,0,0,0,342,0
+READY,jitline_apachejit,11,apache/hadoop-mapreduce,T1,24,19,18,1,5,0
+READY,jitline_apachejit,11,apache/hadoop-mapreduce,T2,24,11,10,1,13,0
+READY,jitline_apachejit,11,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/hadoop-mapreduce,T4,24,0,0,0,24,0
+READY,jitline_apachejit,11,apache/hbase,T1,2158,1751,1610,141,407,0
+READY,jitline_apachejit,11,apache/hbase,T2,2158,1423,1211,212,735,0
+READY,jitline_apachejit,11,apache/hbase,T3,2158,2158,2158,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/hbase,T4,2158,0,0,0,2158,0
+READY,jitline_apachejit,11,apache/hive,T1,2090,1239,1137,102,851,0
+READY,jitline_apachejit,11,apache/hive,T2,2090,962,792,170,1128,0
+READY,jitline_apachejit,11,apache/hive,T3,2090,2090,2090,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/hive,T4,2090,0,0,0,2090,0
+READY,jitline_apachejit,11,apache/ignite,T1,3064,2569,2319,250,495,0
+READY,jitline_apachejit,11,apache/ignite,T2,3064,2052,1629,423,1012,0
+READY,jitline_apachejit,11,apache/ignite,T3,3064,3064,3064,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/ignite,T4,3064,0,0,0,3064,0
+READY,jitline_apachejit,11,apache/kafka,T1,1640,1326,1178,148,314,0
+READY,jitline_apachejit,11,apache/kafka,T2,1640,1162,932,230,478,0
+READY,jitline_apachejit,11,apache/kafka,T3,1640,1640,1640,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/kafka,T4,1640,0,0,0,1640,0
+READY,jitline_apachejit,11,apache/spark,T1,539,396,374,22,143,0
+READY,jitline_apachejit,11,apache/spark,T2,539,339,287,52,200,0
+READY,jitline_apachejit,11,apache/spark,T3,539,539,539,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/spark,T4,539,0,0,0,539,0
+READY,jitline_apachejit,11,apache/zeppelin,T1,513,275,248,27,238,0
+READY,jitline_apachejit,11,apache/zeppelin,T2,513,225,167,58,288,0
+READY,jitline_apachejit,11,apache/zeppelin,T3,513,513,513,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/zeppelin,T4,513,0,0,0,513,0
+READY,jitline_apachejit,11,apache/zookeeper,T1,256,182,168,14,74,0
+READY,jitline_apachejit,11,apache/zookeeper,T2,256,145,118,27,111,0
+READY,jitline_apachejit,11,apache/zookeeper,T3,256,256,256,0,0,0
+NOT APPLICABLE,jitline_apachejit,11,apache/zookeeper,T4,256,0,0,0,256,0
+READY,jitline_apachejit,23,apache/activemq,T1,273,238,199,39,35,0
+READY,jitline_apachejit,23,apache/activemq,T2,273,184,122,62,89,0
+READY,jitline_apachejit,23,apache/activemq,T3,273,273,273,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/activemq,T4,273,0,0,0,273,0
+READY,jitline_apachejit,23,apache/camel,T1,6432,4006,3271,735,2426,0
+READY,jitline_apachejit,23,apache/camel,T2,6432,2974,1907,1067,3458,0
+READY,jitline_apachejit,23,apache/camel,T3,6432,6432,6432,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/camel,T4,6432,0,0,0,6432,0
+READY,jitline_apachejit,23,apache/cassandra,T1,554,147,99,48,407,0
+READY,jitline_apachejit,23,apache/cassandra,T2,554,112,54,58,442,0
+READY,jitline_apachejit,23,apache/cassandra,T3,554,554,554,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/cassandra,T4,554,0,0,0,554,0
+READY,jitline_apachejit,23,apache/flink,T1,5454,4257,3841,416,1197,0
+READY,jitline_apachejit,23,apache/flink,T2,5454,3432,2743,689,2022,0
+READY,jitline_apachejit,23,apache/flink,T3,5454,5454,5454,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/flink,T4,5454,0,0,0,5454,0
+READY,jitline_apachejit,23,apache/groovy,T1,1351,1190,979,211,161,0
+READY,jitline_apachejit,23,apache/groovy,T2,1351,1026,719,307,325,0
+READY,jitline_apachejit,23,apache/groovy,T3,1351,1351,1351,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/groovy,T4,1351,0,0,0,1351,0
+READY,jitline_apachejit,23,apache/hadoop,T1,5421,3887,3497,390,1534,0
+READY,jitline_apachejit,23,apache/hadoop,T2,5421,3312,2692,620,2109,0
+READY,jitline_apachejit,23,apache/hadoop,T3,5421,5421,5421,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/hadoop,T4,5421,0,0,0,5421,0
+READY,jitline_apachejit,23,apache/hadoop-hdfs,T1,342,235,223,12,107,0
+READY,jitline_apachejit,23,apache/hadoop-hdfs,T2,342,151,131,20,191,0
+READY,jitline_apachejit,23,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/hadoop-hdfs,T4,342,0,0,0,342,0
+READY,jitline_apachejit,23,apache/hadoop-mapreduce,T1,24,19,18,1,5,0
+READY,jitline_apachejit,23,apache/hadoop-mapreduce,T2,24,11,10,1,13,0
+READY,jitline_apachejit,23,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/hadoop-mapreduce,T4,24,0,0,0,24,0
+READY,jitline_apachejit,23,apache/hbase,T1,2158,1751,1610,141,407,0
+READY,jitline_apachejit,23,apache/hbase,T2,2158,1423,1211,212,735,0
+READY,jitline_apachejit,23,apache/hbase,T3,2158,2158,2158,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/hbase,T4,2158,0,0,0,2158,0
+READY,jitline_apachejit,23,apache/hive,T1,2090,1239,1137,102,851,0
+READY,jitline_apachejit,23,apache/hive,T2,2090,962,792,170,1128,0
+READY,jitline_apachejit,23,apache/hive,T3,2090,2090,2090,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/hive,T4,2090,0,0,0,2090,0
+READY,jitline_apachejit,23,apache/ignite,T1,3064,2569,2319,250,495,0
+READY,jitline_apachejit,23,apache/ignite,T2,3064,2052,1629,423,1012,0
+READY,jitline_apachejit,23,apache/ignite,T3,3064,3064,3064,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/ignite,T4,3064,0,0,0,3064,0
+READY,jitline_apachejit,23,apache/kafka,T1,1640,1326,1178,148,314,0
+READY,jitline_apachejit,23,apache/kafka,T2,1640,1162,932,230,478,0
+READY,jitline_apachejit,23,apache/kafka,T3,1640,1640,1640,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/kafka,T4,1640,0,0,0,1640,0
+READY,jitline_apachejit,23,apache/spark,T1,539,396,374,22,143,0
+READY,jitline_apachejit,23,apache/spark,T2,539,339,287,52,200,0
+READY,jitline_apachejit,23,apache/spark,T3,539,539,539,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/spark,T4,539,0,0,0,539,0
+READY,jitline_apachejit,23,apache/zeppelin,T1,513,275,248,27,238,0
+READY,jitline_apachejit,23,apache/zeppelin,T2,513,225,167,58,288,0
+READY,jitline_apachejit,23,apache/zeppelin,T3,513,513,513,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/zeppelin,T4,513,0,0,0,513,0
+READY,jitline_apachejit,23,apache/zookeeper,T1,256,182,168,14,74,0
+READY,jitline_apachejit,23,apache/zookeeper,T2,256,145,118,27,111,0
+READY,jitline_apachejit,23,apache/zookeeper,T3,256,256,256,0,0,0
+NOT APPLICABLE,jitline_apachejit,23,apache/zookeeper,T4,256,0,0,0,256,0
+READY,jitline_apachejit,37,apache/activemq,T1,273,238,199,39,35,0
+READY,jitline_apachejit,37,apache/activemq,T2,273,184,122,62,89,0
+READY,jitline_apachejit,37,apache/activemq,T3,273,273,273,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/activemq,T4,273,0,0,0,273,0
+READY,jitline_apachejit,37,apache/camel,T1,6432,4006,3271,735,2426,0
+READY,jitline_apachejit,37,apache/camel,T2,6432,2974,1907,1067,3458,0
+READY,jitline_apachejit,37,apache/camel,T3,6432,6432,6432,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/camel,T4,6432,0,0,0,6432,0
+READY,jitline_apachejit,37,apache/cassandra,T1,554,147,99,48,407,0
+READY,jitline_apachejit,37,apache/cassandra,T2,554,112,54,58,442,0
+READY,jitline_apachejit,37,apache/cassandra,T3,554,554,554,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/cassandra,T4,554,0,0,0,554,0
+READY,jitline_apachejit,37,apache/flink,T1,5454,4257,3841,416,1197,0
+READY,jitline_apachejit,37,apache/flink,T2,5454,3432,2743,689,2022,0
+READY,jitline_apachejit,37,apache/flink,T3,5454,5454,5454,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/flink,T4,5454,0,0,0,5454,0
+READY,jitline_apachejit,37,apache/groovy,T1,1351,1190,979,211,161,0
+READY,jitline_apachejit,37,apache/groovy,T2,1351,1026,719,307,325,0
+READY,jitline_apachejit,37,apache/groovy,T3,1351,1351,1351,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/groovy,T4,1351,0,0,0,1351,0
+READY,jitline_apachejit,37,apache/hadoop,T1,5421,3887,3497,390,1534,0
+READY,jitline_apachejit,37,apache/hadoop,T2,5421,3312,2692,620,2109,0
+READY,jitline_apachejit,37,apache/hadoop,T3,5421,5421,5421,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/hadoop,T4,5421,0,0,0,5421,0
+READY,jitline_apachejit,37,apache/hadoop-hdfs,T1,342,235,223,12,107,0
+READY,jitline_apachejit,37,apache/hadoop-hdfs,T2,342,151,131,20,191,0
+READY,jitline_apachejit,37,apache/hadoop-hdfs,T3,342,342,342,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/hadoop-hdfs,T4,342,0,0,0,342,0
+READY,jitline_apachejit,37,apache/hadoop-mapreduce,T1,24,19,18,1,5,0
+READY,jitline_apachejit,37,apache/hadoop-mapreduce,T2,24,11,10,1,13,0
+READY,jitline_apachejit,37,apache/hadoop-mapreduce,T3,24,24,24,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/hadoop-mapreduce,T4,24,0,0,0,24,0
+READY,jitline_apachejit,37,apache/hbase,T1,2158,1751,1610,141,407,0
+READY,jitline_apachejit,37,apache/hbase,T2,2158,1423,1211,212,735,0
+READY,jitline_apachejit,37,apache/hbase,T3,2158,2158,2158,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/hbase,T4,2158,0,0,0,2158,0
+READY,jitline_apachejit,37,apache/hive,T1,2090,1239,1137,102,851,0
+READY,jitline_apachejit,37,apache/hive,T2,2090,962,792,170,1128,0
+READY,jitline_apachejit,37,apache/hive,T3,2090,2090,2090,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/hive,T4,2090,0,0,0,2090,0
+READY,jitline_apachejit,37,apache/ignite,T1,3064,2569,2319,250,495,0
+READY,jitline_apachejit,37,apache/ignite,T2,3064,2052,1629,423,1012,0
+READY,jitline_apachejit,37,apache/ignite,T3,3064,3064,3064,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/ignite,T4,3064,0,0,0,3064,0
+READY,jitline_apachejit,37,apache/kafka,T1,1640,1326,1178,148,314,0
+READY,jitline_apachejit,37,apache/kafka,T2,1640,1162,932,230,478,0
+READY,jitline_apachejit,37,apache/kafka,T3,1640,1640,1640,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/kafka,T4,1640,0,0,0,1640,0
+READY,jitline_apachejit,37,apache/spark,T1,539,396,374,22,143,0
+READY,jitline_apachejit,37,apache/spark,T2,539,339,287,52,200,0
+READY,jitline_apachejit,37,apache/spark,T3,539,539,539,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/spark,T4,539,0,0,0,539,0
+READY,jitline_apachejit,37,apache/zeppelin,T1,513,275,248,27,238,0
+READY,jitline_apachejit,37,apache/zeppelin,T2,513,225,167,58,288,0
+READY,jitline_apachejit,37,apache/zeppelin,T3,513,513,513,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/zeppelin,T4,513,0,0,0,513,0
+READY,jitline_apachejit,37,apache/zookeeper,T1,256,182,168,14,74,0
+READY,jitline_apachejit,37,apache/zookeeper,T2,256,145,118,27,111,0
+READY,jitline_apachejit,37,apache/zookeeper,T3,256,256,256,0,0,0
+NOT APPLICABLE,jitline_apachejit,37,apache/zookeeper,T4,256,0,0,0,256,0

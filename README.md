@@ -212,3 +212,7 @@ reload/compare/resume cycle. Tests create disposable fixtures; they do not train
 `tests/` holds protocol and integration tests. Generated `data/` contains untouched raw patches,
 retrieval caches, archive audits and frozen manifests. Generated `runs/` holds model artifacts.
 Training libraries are isolated in `.venv/`.
+
+## Final experiment results
+
+The [three-model comparison and verification audit](results/experiment_v5_v6/README.md) include the v5 and v6 results for seeds 11, 23 and 37.

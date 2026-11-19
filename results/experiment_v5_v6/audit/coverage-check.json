@@ -1,0 +1,28 @@
+{
+  "test": 30111,
+  "projects": [
+    "apache/activemq",
+    "apache/camel",
+    "apache/cassandra",
+    "apache/flink",
+    "apache/groovy",
+    "apache/hadoop",
+    "apache/hadoop-hdfs",
+    "apache/hadoop-mapreduce",
+    "apache/hbase",
+    "apache/hive",
+    "apache/ignite",
+    "apache/kafka",
+    "apache/spark",
+    "apache/zeppelin",
+    "apache/zookeeper"
+  ],
+  "rows_checked": 1354995,
+  "na_reasons": {
+    "no_two_sided_hunk": 50553,
+    "no_message_channel": 180666,
+    "metric_scope_mismatch": 46134
+  },
+  "same_hash_score_or_decision_exceptions": {},
+  "split_hash": "d4a17b95401cb03429d1a0a888b1bbbea20d7d3240b042a5416e748666f5a139"
+}

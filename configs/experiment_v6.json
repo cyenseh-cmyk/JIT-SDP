@@ -1,0 +1,27 @@
+{
+  "models": [
+    "cc2vec",
+    "jitline_apachejit"
+  ],
+  "repositories": {
+    "apache/hadoop": "data/repositories/apache__hadoop",
+    "apache/hadoop-hdfs": "data/repositories/apache__hadoop-hdfs",
+    "apache/hadoop-mapreduce": "data/repositories/apache__hadoop-mapreduce"
+  },
+  "run_id": "experiment_v6",
+  "neural": {
+    "batch_size": 64,
+    "device": "cuda",
+    "max_epochs": 20
+  },
+  "cc2vec": {
+    "batch_size": 8,
+    "batch_lines": true
+  },
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "temporal_overlap": "error"
+}

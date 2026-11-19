@@ -1,0 +1,264 @@
+[
+  {
+    "kind": "split",
+    "hash": "d4a17b95401cb03429d1a0a888b1bbbea20d7d3240b042a5416e748666f5a139",
+    "projects": [
+      "apache/activemq",
+      "apache/camel",
+      "apache/cassandra",
+      "apache/flink",
+      "apache/groovy",
+      "apache/hadoop",
+      "apache/hadoop-hdfs",
+      "apache/hadoop-mapreduce",
+      "apache/hbase",
+      "apache/hive",
+      "apache/ignite",
+      "apache/kafka",
+      "apache/spark",
+      "apache/zeppelin",
+      "apache/zookeeper"
+    ],
+    "parts": {
+      "test": 30111,
+      "train": 35860,
+      "validation": 8965
+    },
+    "metrics": [
+      "la",
+      "ld",
+      "nf",
+      "nd",
+      "ns",
+      "ent",
+      "ndev",
+      "age",
+      "nuc",
+      "aexp",
+      "arexp",
+      "asexp"
+    ]
+  },
+  {
+    "kind": "model",
+    "model": "deepjit",
+    "seed": 11,
+    "threshold": 0.59,
+    "validation_reselected_threshold": 0.59,
+    "validation_metric_max_error": 0.0,
+    "test_max_abs_error": 0.0,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 5.960464477539063e-08,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "classifier.pt": {
+        "fields": 24,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      }
+    },
+    "status": "READY"
+  },
+  {
+    "kind": "model",
+    "model": "deepjit",
+    "seed": 23,
+    "threshold": 0.45,
+    "validation_reselected_threshold": 0.45,
+    "validation_metric_max_error": 0.0,
+    "test_max_abs_error": 0.0,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 5.960464477539063e-08,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "classifier.pt": {
+        "fields": 24,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      }
+    },
+    "status": "READY"
+  },
+  {
+    "kind": "model",
+    "model": "deepjit",
+    "seed": 37,
+    "threshold": 0.61,
+    "validation_reselected_threshold": 0.61,
+    "validation_metric_max_error": 0.0,
+    "test_max_abs_error": 0.0,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 5.960464477539063e-08,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "classifier.pt": {
+        "fields": 24,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      }
+    },
+    "status": "READY"
+  },
+  {
+    "kind": "model",
+    "model": "cc2vec",
+    "seed": 11,
+    "threshold": 0.5,
+    "validation_reselected_threshold": 0.5,
+    "validation_metric_max_error": 0.0,
+    "test_max_abs_error": 0.0,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 0.0,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "encoder.pt": {
+        "fields": 46,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      },
+      "classifier.pt": {
+        "fields": 2,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      }
+    },
+    "status": "READY"
+  },
+  {
+    "kind": "model",
+    "model": "cc2vec",
+    "seed": 23,
+    "threshold": 0.5,
+    "validation_reselected_threshold": 0.5,
+    "validation_metric_max_error": 0.0,
+    "test_max_abs_error": 0.0,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 0.0,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "encoder.pt": {
+        "fields": 46,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      },
+      "classifier.pt": {
+        "fields": 2,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      }
+    },
+    "status": "READY"
+  },
+  {
+    "kind": "model",
+    "model": "cc2vec",
+    "seed": 37,
+    "threshold": 0.5,
+    "validation_reselected_threshold": 0.5,
+    "validation_metric_max_error": 0.0,
+    "test_max_abs_error": 0.0,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 0.0,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "encoder.pt": {
+        "fields": 46,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      },
+      "classifier.pt": {
+        "fields": 2,
+        "all_finite_tensors": true,
+        "optimizer_keys": false
+      }
+    },
+    "status": "READY"
+  },
+  {
+    "kind": "model",
+    "model": "jitline_apachejit",
+    "seed": 11,
+    "threshold": 0.49,
+    "validation_reselected_threshold": 0.49,
+    "validation_metric_max_error": 7.467205531686005e-08,
+    "test_max_abs_error": 1.1102230246251565e-16,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 0.0,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "forest.joblib": {
+        "trees": 300,
+        "tokens": 50000,
+        "scaled_metrics": 12
+      }
+    },
+    "status": "READY"
+  },
+  {
+    "kind": "model",
+    "model": "jitline_apachejit",
+    "seed": 23,
+    "threshold": 0.56,
+    "validation_reselected_threshold": 0.56,
+    "validation_metric_max_error": 4.978137013722517e-08,
+    "test_max_abs_error": 1.1102230246251565e-16,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 0.0,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "forest.joblib": {
+        "trees": 300,
+        "tokens": 50000,
+        "scaled_metrics": 12
+      }
+    },
+    "status": "READY"
+  },
+  {
+    "kind": "model",
+    "model": "jitline_apachejit",
+    "seed": 37,
+    "threshold": 0.56,
+    "validation_reselected_threshold": 0.56,
+    "validation_metric_max_error": 4.3342956446146275e-08,
+    "test_max_abs_error": 1.1102230246251565e-16,
+    "test_decision_mismatches": 0,
+    "sample_stress_max_abs_error": 0.0,
+    "sample_hash_errors": 0,
+    "sample_decision_errors": 0,
+    "sample_status_errors": 0,
+    "sample_rows": 75,
+    "checkpoints": {
+      "forest.joblib": {
+        "trees": 300,
+        "tokens": 50000,
+        "scaled_metrics": 12
+      }
+    },
+    "status": "READY"
+  }
+]

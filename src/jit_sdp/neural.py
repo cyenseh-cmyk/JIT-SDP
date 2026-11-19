@@ -28,6 +28,14 @@ def classifier(cfg, state, name):
         num_filters=cfg["neural"]["num_filters"], filter_sizes=cfg["neural"]["filter_sizes"],
         hidden_units=cfg["neural"]["hidden_units"], dropout_keep_prob=cfg["neural"]["dropout"])
     cls = upstream(base / "DeepJIT/model.py", "jit_sdp_upstream_deepjit").DeepJIT
+    if cfg.get("deepjit", {}).get("cuda_backward") == "triton":
+        import torch
+        device = torch.device(cfg["neural"]["device"])
+        if device.type == "cuda":
+            if torch.version.cuda is None or torch.cuda.get_device_capability(device)[0] < 8:
+                raise ValueError("DeepJIT Triton backward requires an NVIDIA SM80 or newer GPU")
+            from .deepjit_cuda import accelerated_model
+            return accelerated_model(cls, args)
     return cls(args)
 
 
@@ -82,10 +90,25 @@ def representation(cfg, state):
         def features(self, added, removed):
             return self.forward_commit_embeds_diff(added, removed, *self.states(len(added)))
 
+    class BatchedCC2Vec(PortableCC2Vec):
+        def forward_code(self, x, hid_state):
+            _, sent_state, word_state = hid_state
+            batch, files, lines, words = x.shape
+            # Each line is a separate GRU sequence. Only the batch axis grows.
+            tokens = x.reshape(batch * files * lines, words).T.contiguous()
+            initial_words = word_state.repeat_interleave(files * lines, dim=1)
+            sentences, _ = self.wordRNN(tokens, initial_words)
+
+            sequences = sentences.reshape(batch * files, lines, -1).transpose(0, 1).contiguous()
+            initial_sentences = sent_state.repeat_interleave(files, dim=1)
+            file_vectors, _ = self.sentRNN(sequences, initial_sentences)
+            return file_vectors.reshape(batch, files, -1).mean(dim=1)
+
     args = SimpleNamespace(vocab_code=len(state["code"]), batch_size=cfg["cc2vec"]["batch_size"],
         embed_size=cfg["cc2vec"]["embed_size"], hidden_size=cfg["cc2vec"]["hidden_size"],
         class_num=len(state["message"]), dropout_keep_prob=cfg["neural"]["dropout"])
-    return PortableCC2Vec(args)
+    model = BatchedCC2Vec if cfg["cc2vec"].get("batch_lines", False) else PortableCC2Vec
+    return model(args)
 
 
 def seed_everything(seed, threads):
@@ -160,6 +183,7 @@ class NeuralPipeline:
         generator = np.random.default_rng(self.seed)
         best, patience_best, stale, history = None, None, 0, []
         stage = "representation" if auxiliary else "classifier"
+        early_stopping = self.name != "deepjit" or self.cfg.get("deepjit", {}).get("early_stopping", True)
         for epoch in range(1, settings["max_epochs"] + 1):
             label = f"{self.name} seed {self.seed} {stage} epoch {epoch}/{settings['max_epochs']}"
             model.train()
@@ -217,7 +241,7 @@ class NeuralPipeline:
                 patience_best, stale = score, 0
             else:
                 stale += 1
-            if stale >= settings["patience"]:
+            if early_stopping and stale >= settings["patience"]:
                 break
         model.load_state_dict(torch.load(checkpoint, map_location=self.device, weights_only=True))
         model.eval()

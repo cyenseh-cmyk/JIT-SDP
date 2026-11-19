@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "adapter.json": "a7d022f58afad0370441257388fae9740587244e297c9c44fe3b5883d0946b91",
+    "classifier.pt": "90a71fa436de6fdeceb9a9d84a30f333924d6968df13c1acbc046dca12e135ee",
+    "encoder.pt": "0176fe3a1247f9d3569d4dd6df661b4074ceb800fdcac6e7531448529936f6f5",
+    "encoding_audit.json": "ca76fc2f7f22bce7c577a5bd0bcbb0de7104bcf2b888b5a3c22506aed6f05fe4",
+    "history.json": "d517d1a43212b5871f7f0d876ebf49512acca26b65cd3a10c7405d3786028dca",
+    "predictions.csv": "a8f5903c12682c5aa0fde6b3a3154d151a8b7877dbdc1dd024e615e446523453",
+    "runtime.json": "4aee21cb51457466e5fc382d26f0d2078926a981093049a36d7206d01f096851",
+    "threshold.json": "ff557f4a6804b6c3f654136e6ca4422af5566a7563f6a5362af902d4fabfeac5"
+  },
+  "identity": "a159348c197bda779e51917b4189487ee697b704dcc8851b9fd47be96e367020"
+}

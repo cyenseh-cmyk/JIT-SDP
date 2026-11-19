@@ -1,0 +1,9 @@
+{
+  "cpu": "x86_64",
+  "cuda_available": true,
+  "cuda_version": "13.2",
+  "deterministic_algorithms": true,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "parallel_training_runs": 1
+}

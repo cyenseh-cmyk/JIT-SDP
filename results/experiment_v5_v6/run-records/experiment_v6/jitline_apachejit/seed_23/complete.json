@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "encoding_audit.json": "4bd1a5f20b59b40253220e820ef77577fdc70d75db9ad38776d3837b1b66fe80",
+    "forest.joblib": "e5c52f220a334527c746b57f5f7deaa91f31da333db43a02746b4002abe498ce",
+    "history.json": "120d0f1afe306afa266a8b3d57d4abfb99bb83d0d23f067bb7733b171b925118",
+    "predictions.csv": "9bbf098610071c74b37643fa515784851e863eafbe16c0b082857ae95e866909",
+    "runtime.json": "864a1840dac08ad87abe7a7578b8a21913d2dbbe0ecc18ff60db4f9c891327c2",
+    "threshold.json": "73a721c92bcbfd37cc82337c14ffee89fabe4de7928276cc70a53961981f2fb7"
+  },
+  "identity": "a159348c197bda779e51917b4189487ee697b704dcc8851b9fd47be96e367020"
+}

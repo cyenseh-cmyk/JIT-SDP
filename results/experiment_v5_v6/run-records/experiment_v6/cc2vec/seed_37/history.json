@@ -1,0 +1,86 @@
+{
+  "classifier": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6978921993112538,
+      "validation_mcc_at_0_5": 0.02506010481668259
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6925005748560491,
+      "validation_mcc_at_0_5": 0.034992454889246155
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6918626357042383,
+      "validation_mcc_at_0_5": 0.019706801866216175
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6917358797020707,
+      "validation_mcc_at_0_5": 0.14769886145200578
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6913595973547783,
+      "validation_mcc_at_0_5": 0.014322448538385914
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6910928728722755,
+      "validation_mcc_at_0_5": 0.0910298638327878
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.6911966989509766,
+      "validation_mcc_at_0_5": 0.07639407479187818
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.6911798039628884,
+      "validation_mcc_at_0_5": 0.09420596382854979
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.6908293842870432,
+      "validation_mcc_at_0_5": 0.1363090466313546
+    }
+  ],
+  "representation": [
+    {
+      "epoch": 1,
+      "train_loss": 0.022692859733848103,
+      "validation_auxiliary_loss": 0.006530046665587042
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.004980664638510495,
+      "validation_auxiliary_loss": 0.006347132634425539
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0049571903807885545,
+      "validation_auxiliary_loss": 0.006758737827589392
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.004944011763910043,
+      "validation_auxiliary_loss": 0.006386841915088679
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0049436475256249114,
+      "validation_auxiliary_loss": 0.0066370978140637355
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.004938238298928711,
+      "validation_auxiliary_loss": 0.006658912667920486
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.004932781571612734,
+      "validation_auxiliary_loss": 0.0063901438496745105
+    }
+  ]
+}
